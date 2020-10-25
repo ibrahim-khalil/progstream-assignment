@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
-import cover from './media/cover.png';
+import cover from '../media/cover.png';
 import progressive_structure from '../media/progressive_structure.png';
 import technical_practices from '../media/technical_practices.png';
 import devOps from '../media/devOps.png';
@@ -52,7 +52,7 @@ const Home = () => {
                     id="about"
                     style={{
                         backgroundImage:
-                            'url("https://www.intheblack.com/-/media/intheblack/allimages/workplace/2018/business-discussion-office.jpg")',
+                            `url(${cover})`,
                     }}
                 >
                     <div className='about-shade'>
