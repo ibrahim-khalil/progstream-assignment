@@ -5,7 +5,6 @@ import cover from './media/cover.png';
 import progressive_structure from '../media/progressive_structure.png';
 import technical_practices from '../media/technical_practices.png';
 import devOps from '../media/devOps.png';
-import logoImg from '../media/logo.png';
 import product1 from '../media/product1.png';
 import product2 from '../media/product2.png';
 import product3 from '../media/product3.png';
@@ -79,7 +78,7 @@ const Home = () => {
                 </div>
                 <div className="features-container">
                     <div className="progressive-structure">
-                        <img src={progressive_structure} alt="Prgressive Structure Image" />
+                        <img src={progressive_structure} alt="Prgressive Str" />
                         <h6>Progressive Structure</h6>
                         <p>
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -88,7 +87,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="technical-practices">
-                        <img src={technical_practices} alt="Technical Practices Image" />
+                        <img src={technical_practices} alt="Technical Practices" />
                         <h6>Technical Practices</h6>
                         <p>
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -97,7 +96,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="DevOps-Teams">
-                        <img src={devOps} alt="DevOps Teams Image" />
+                        <img src={devOps} alt="DevOps Teams" />
                         <h6>DevOps Teams</h6>
                         <p>
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor

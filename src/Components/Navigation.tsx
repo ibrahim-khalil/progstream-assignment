@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 
 export const Navigation = () => {
     const [navClick, setNavClick] = useState('home');
@@ -35,22 +35,22 @@ export const Navigation = () => {
     return (
         <div className="navigation header-nav">
             <div>
-                <a href="#home" onClick={homeClick} style={navClick == 'home' ? borderWhite : borderNone}>
+                <a href="#home" onClick={homeClick} style={navClick === 'home' ? borderWhite : borderNone}>
                     Home
                 </a>
             </div>
             <div>
-                <a href="#about" onClick={aboutClick} style={navClick == 'about' ? borderWhite : borderNone}>
+                <a href="#about" onClick={aboutClick} style={navClick === 'about' ? borderWhite : borderNone}>
                     About us
                 </a>
             </div>
             <div>
-                <a href="#features" onClick={featuresClick} style={navClick == 'features' ? borderWhite : borderNone}>
+                <a href="#features" onClick={featuresClick} style={navClick === 'features' ? borderWhite : borderNone}>
                     Features
                 </a>
             </div>
             <div>
-                <a href="#products" onClick={productsClick} style={navClick == 'products' ? borderWhite : borderNone}>
+                <a href="#products" onClick={productsClick} style={navClick === 'products' ? borderWhite : borderNone}>
                     Products
                 </a>
             </div>
@@ -58,7 +58,7 @@ export const Navigation = () => {
                 <a
                     href="#contact"
                     onClick={contactClick}
-                    style={navClick == 'contact' ? borderWhite : {borderBottom: 'none', color: 'white'}}
+                    style={navClick === 'contact' ? borderWhite : {borderBottom: 'none', color: 'white'}}
                 >
                     Contact Us
                 </a>
