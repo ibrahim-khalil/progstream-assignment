@@ -1,0 +1,15 @@
+@mixin features-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    grid-column: 1/4;
+    text-align: center;
+    padding: 3rem 15rem;
+    h6 {
+        font-size: 4rem;
+        margin: 0;
+        font-weight: 500;
+    }
+}

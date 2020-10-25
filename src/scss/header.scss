@@ -1,0 +1,18 @@
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 3rem;
+    z-index: 100;
+}
+
+// Media Queries
+
+@media (max-width: 767.98px) {
+    .header img {
+        width: 70px;
+        height: auto;
+    }
+}

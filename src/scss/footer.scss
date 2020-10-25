@@ -1,0 +1,94 @@
+@import './variables.scss';
+
+.footer {
+    height: 365px;
+    grid-column: 1/4;
+    grid-row: 9;
+    display: flex;
+    flex-direction: column;
+}
+.footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background-color: #2f2f2f;
+    padding: 2rem 6rem;
+    .footer-logo-div {
+        img {
+            width: 20rem;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        .social-media {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 2rem;
+
+            .social-media-icon {
+                background-color: white;
+                border-radius: 15px;
+                width: 4rem;
+                height: 4rem;
+                margin: auto;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .social-media-icon svg {
+                color: $bg-color;
+            }
+        }
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+
+        h6 {
+            font-size: 18px;
+            margin: 0;
+        }
+        a {
+            color: white;
+        }
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        a {
+            color: white;
+        }
+        h6 {
+            margin: 0;
+            font-size: 18px;
+            padding: 0.7rem;
+        }
+    }
+}
+
+.logo-2020 {
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+// Media Queries
+
+@media (max-width: 767.98px) {
+    .footer {
+        height: auto;
+        .footer-main .contact {
+            gap: 0;
+        }
+    }
+}
